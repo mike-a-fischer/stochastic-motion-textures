@@ -1,19 +1,3 @@
-A file named README.txt that contains basic instructions on running your code, including what libraries, languages, etc., (including versions) to use, as well as what commands to use to run your code. This doesn’t need to be extremely detailed as long as we can successfully run your code based on your instructions.
-
-Code Language:  Python
-
-List of code files:
-  stochastic_motion_textures.py (main function)
-  layer_inpainting.py
-  layer_motion.py
-
-Requirements:
-  cv2
-  numpy
-  scipy
-  skimage
-  numba
-
 To run enter the following command, order of input matters:
 python stochastic_motion_textures.py image.jpg layer_1_mask.jpg layer_1_type ... layer_n_mask.jpg layer_n_type number_of_frames
 
